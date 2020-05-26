@@ -1,0 +1,102 @@
+body {
+	margin: 0;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 3vw;
+	background-color: black;
+}
+
+main {
+	padding: 10px 3vw 53vh;
+	background-image: url('img_mountains.jpg');
+	background-color: gray;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 3vw;
+	background-color: black;
+}
+
+
+.site-menu > ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-menu li {
+	margin: 0 15px;
+}
+
+
+.site-menu a {
+	color: white;
+
+}
+
+.login {
+
+	padding-top: 300px;
+	padding-left: 1150px;
+	justify-content: center;
+
+}
+
+.loginlabel {
+	color: #3c2d31;
+}
+
+.button1 {
+
+	opacity: 0.6;
+	color: #ffffff;
+	background-color: #191821;
+	
+}
+
+.input1 {
+
+	color: #ffffff;
+	opacity: 0.6;
+	background: #0c0b10;
+
+}
+
+.input1[type="text"]::placeholder { color: #ffffff; } 
+.input1[type="email"]::placeholder { color: #ffffff; } 
+
+
+
+.fieldset1 {
+	margin-left: 1000px;
+	width: 460px;
+	/*padding-left: 1000px;*/
+	align-content: center;
+	border-radius: 10px;
+	margin-top: 400px;
+	color: black;
+	border-color: black;
+	/*border: none;*/
+}
+
+.email {
+
+}
+
+.menu {
+	font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
